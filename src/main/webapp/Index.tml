@@ -1,0 +1,22 @@
+<html xmlns:t="http://tapestry.apache.org/schema/tapestry_5_0_0.xsd" xmlns:p="tapestry:parameter">
+
+    <head>
+        <title>worktest1 Start Page</title>
+    </head>
+    <body>
+        <h1>worktest1 first page</h1>
+
+        <p> The current time is: ${currentTime}. </p>
+
+        <t:if test="user">
+            Welcome back, ${user.userName}. You have ${user.getMoneyInCents()} to spend!<br/>
+            Your last login was ${user.lastLogin}
+            [<t:pagelink t:page="user/logout">Logout</t:pagelink>]
+            <p:else>
+	            <t:pagelink t:page="user/login">Login</t:pagelink> or 
+                <t:pagelink t:page="user/register">Register</t:pagelink>
+            </p:else>
+        </t:if>
+
+    </body>
+</html>

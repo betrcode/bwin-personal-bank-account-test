@@ -1,0 +1,15 @@
+<html xmlns:t="http://tapestry.apache.org/schema/tapestry_5_1_0.xsd">
+  <head>
+    <title>Register</title>
+  </head>
+  <body>
+
+    <h1>Register</h1>
+
+	<t:beaneditform submitlabel="message:submit-label" object="user"/>
+	
+	<p>
+	Already have an account? <t:pagelink t:page="user/login">Login!</t:pagelink>
+	</p>
+  </body>
+</html>
