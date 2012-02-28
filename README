@@ -1,0 +1,34 @@
+An assignment I did for bwin once upon a time. 
+
+The assignment is done using Java, Tapestry and Hibernate.
+
+For assignment requirements, see: assignment_test.html
+
+----------------------------------------------------------
+
+
+
+Choices for webapp
+------------------
+
+* Chose Tapestry web framework for rapid development and "all Java" approach.
+
+* Using HSQLDB with Hibernate to simplify creation of webapp. (Instead of personal preference of DAO's + JDBC + Oracle.)
+
+* Ignoring HTML/CSS design stuff and focus on functionality.
+
+* Zero test coverage because it would take longer and the project is not going to live long. :-)
+
+
+Database model is created by Hibernate based on the User entity class. (Which is the only thing I am persisting.)
+
+E-mail functionality not finished.
+
+Register page built in addition to assignment requirements.
+
+
+Project is built using Maven 2.2.1 and Java 1.6.0_16
+
+To build: "mvn install" / "mvn clean install"
+To run: "mvn jetty:run" 
+
