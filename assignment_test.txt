@@ -1,0 +1,23 @@
+﻿Work assignment Webdevelopment - Personal Bank Account
+
+The assignment is to create a simple framework for User Handling and login/logout in .net. This assignment should take a few hours to solve.
+
+Description:
+
+On a simple web page ("first page") should it be possible to login using a username and password.
+
+If the login is successful, will a page where you can see the amount of money that is available on the account and the latest successful login appear.
+
+It should also be possible to logout.
+
+The user should be informed if the login attempt failed. After 3 attempts should the user be blocked and a mail should be send to a presumed administrator
+
+User information should be stored and fetched from a database.
+
+Submit: 
+1. All the code
+2. Database model.
+
+Zip the information into one file and send it 
+
+
